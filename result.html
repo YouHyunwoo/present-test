@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="co-authored by Hyunwoo You, Sungmin Woo, Chayoung-Yoon">
+    <meta name="description" content="선물 추천 테스트입니다." />
+
+    <meta property="og:url" content="https://presenttest.netlify.app" />
+    <meta property="og:title" content="선물 추천 테스트" />
+    <meta property="og:description" content="선물 추천 테스트입니다." />
+    <meta property="og:image" content="https://presenttest.netlify.app/images/thumbnail.png">
+
+    <title>선물 추천 테스트</title>
+
+    <!-- <link rel="shortcut icon" href="favicon.ico"> 
+    <link rel="icon" href="favicon.ico"> -->
+
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/result.css">
+
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+    <script type="module" src="scripts/page/result.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="content">
+            <header>
+                <h2>
+                    <span class="name">00</span>은 바로...<br/>
+                </h2>
+                <h1>
+                    <span class="type"></span>
+                </h1>
+    
+                <figure>
+                    <img src="images/main.png" alt="결과 이미지">
+                </figure>
+            </header>
+
+            <!-- <section class="advertisement">
+                <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-fZsYpKIS0dlTJGNn" data-ad-width="320"
+                    data-ad-height="100"></ins>
+            </section> -->
+    
+            <section class="recommendation">
+                <h1>
+                    <span class="name">00</span>을 위한 추천 선물
+                </h1>
+                <div class="presents">
+                    <ul>
+                        <li>
+                            <figure>
+                                <img src="" alt="이미지">
+                            </figure>
+                            <section>
+                                <a>구경하러 가기</a>
+                            </section>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="" alt="이미지">
+                            </figure>
+                            <section>
+                                <a>구경하러 가기</a>
+                            </section>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="" alt="이미지">
+                            </figure>
+                            <section>
+                                <a>구경하러 가기</a>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="share">
+                <ul>
+                    <li id="facebook"></li>
+                    <li id="twitter"></li>
+                    <li id="kakaostory"></li>
+                    <li id="kakaotalk"></li>
+                </ul>
+    
+                <a id="link-copy">링크 복사</a>
+                <a id="result-copy">결과 이미지 복사</a>
+            </section>
+    
+            <section class="retry">
+                <a href="/">다시하기</a>
+            </section>
+    
+            <footer>
+                <p class="copyright">Copyright(c) 2021 OutOfOutline</p>
+            </footer>
+        </section>
+    </main>
+
+    <!-- <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script> -->
+</body>
+
+</html>
