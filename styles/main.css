@@ -1,0 +1,64 @@
+img {
+    height: 100%;
+}
+
+
+/* page */
+#main {
+    text-align: center;
+}
+
+
+/* header */
+#main header {
+    margin: 30px auto;
+}
+
+#main header .logo {
+    margin: 10px auto;
+    height: 100px;
+}
+
+#main header .title {
+    margin: 10px 0;
+}
+
+#main header .title h1 {
+    margin: 10px 0;
+    font-size: 3rem;
+}
+
+
+/* main */
+#main main {
+    margin: 30px 0;
+}
+
+#main main .subtitle h2 {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+#main main .image {
+    margin: 10px auto;
+    height: 400px;
+}
+
+#main main .button {
+    margin: 10px auto;
+}
+
+#main main .button a {
+    font-size: 1.1rem;
+}
+
+/* #main main .share {
+
+} */
+
+
+/* footer */
+#main footer {
+    margin: 30px auto;
+    font-size: 12px;
+}
