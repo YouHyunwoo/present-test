@@ -13,9 +13,9 @@ div.button:hover {
 }
 
 div.button > a {
-    padding: 10%;
     color: black;
     text-decoration: none;
+    word-break: keep-all;
 }
 
 div.button:hover > a {
