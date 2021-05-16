@@ -62,15 +62,15 @@
         width: 100px;
         border: 3px solid black;
         border-radius: 3px;
-        font-size: 1rem;
-        line-height: 25px;
+        font-size: 1.4rem;
+        line-height: 30px;
     }
 
 
     /* button */
     #name .button a {
         padding: 8px 25px;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         text-decoration: none;
     }
 }

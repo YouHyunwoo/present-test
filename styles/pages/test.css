@@ -137,9 +137,9 @@
     
     #test .choices .choice {
         margin: 5px 5px;
-        width: 150px;
-        height: 40px;
-        font-size: 0.8rem;
+        width: 240px;
+        height: 80px;
+        font-size: 1.2rem;
     }
     
     
