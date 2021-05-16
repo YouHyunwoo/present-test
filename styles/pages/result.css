@@ -147,12 +147,12 @@ footer p {
 
     header h2 {
         margin: 5px auto;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 
     header h1 {
         margin: 5px auto;
-        font-size: 2.1rem;
+        font-size: 2.6rem;
     }
 
     header figure {
@@ -162,7 +162,7 @@ footer p {
     header p {
         width: 300px;
         margin: 5px auto;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
 
@@ -182,7 +182,7 @@ footer p {
     }
 
     .recommendation h1 {
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
     .recommendation .presents {
@@ -199,8 +199,8 @@ footer p {
     }
 
     .recommendation .presents ul li figure {
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
         margin: 10px;
     }
 
@@ -209,29 +209,25 @@ footer p {
     }
 
     .recommendation .presents ul li a {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
 
     /* share */
     .share {
-        width: 120px;
+        width: 200px;
         margin: 30px auto;
     }
 
     .share ul li {
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
     }
 
     .share section .button {
-        width: 70px;
-        height: 30px;
-        font-size: 0.6rem;
-    }
-
-    .share section a {
-        font-size: 0.5rem;
+        width: 140px;
+        height: 50px;
+        font-size: 1.2rem;
     }
 
 
@@ -241,7 +237,7 @@ footer p {
     }
 
     .retry a {
-        font-size: 0.5rem;
+        font-size: 1.2rem;
         letter-spacing: 1px;
     }
 
@@ -249,6 +245,6 @@ footer p {
     /* footer */
     footer p {
         margin: 10px auto;
-        font-size: 0.2rem;
+        font-size: 1rem;
     }
 }
