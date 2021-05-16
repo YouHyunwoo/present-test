@@ -38,12 +38,12 @@ export class ResultPage extends page.Page {
         });
 
         const onLinkCopyButtonClick = this.onLinkCopyButtonClick.bind(this);
-        const linkCopyButton = this.element.querySelector('.share a#link-copy');
+        const linkCopyButton = this.element.querySelector('.share div.button#link-copy');
 
         linkCopyButton.addEventListener('click', onLinkCopyButtonClick);
 
         const onResultCopyButtonClick = this.onResultCopyButtonClick.bind(this);
-        const resultCopyButton = this.element.querySelector('.share a#result-copy');
+        const resultCopyButton = this.element.querySelector('.share div.button#result-copy');
 
         resultCopyButton.addEventListener('click', onResultCopyButtonClick);
     }
