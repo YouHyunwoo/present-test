@@ -1,0 +1,246 @@
+/* header */
+header {
+    margin: 60px auto;
+    text-align: center;
+}
+
+header h2 {
+    margin: 10px auto;
+    font-size: 2.2rem;
+}
+
+header h1 {
+    margin: 10px auto;
+    font-size: 4rem;
+}
+
+header figure {
+    height: 300px;
+}
+
+header figure img {
+    height: 100%;
+}
+
+header p {
+    width: 600px;
+    margin: 10px auto;
+    font-size: 1.6rem;
+}
+
+
+/* advertisement */
+.advertisement {
+    margin: 60px auto;
+    text-align: center;
+}
+
+
+/* recommendation */
+.recommendation {
+    margin: 60px 0;
+    text-align: center;
+}
+
+.recommendation h1 {
+    font-size: 3rem;
+}
+
+.recommendation .presents {
+    margin: 20px 0;
+}
+
+.recommendation .presents ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.recommendation .presents ul li {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4762c;
+    border-radius: 10px;
+}
+
+.recommendation .presents ul li figure {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.recommendation .presents ul li figure img {
+    width: 100%;
+}
+
+.recommendation .presents ul li section {
+    margin: 20px auto;
+}
+
+.recommendation .presents ul li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* share */
+.share {
+    width: 240px;
+    margin: 60px auto;
+}
+
+.share ul li {
+    width: 50px;
+    height: 50px;
+}
+
+.share section .button {
+    width: 140px;
+    height: 60px;
+    font-size: 1.1rem;
+}
+
+
+/* retry */
+.retry {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.retry a {
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.retry a:hover {
+    color: #f4762c;
+}
+
+
+/* footer */
+footer p {
+    margin: 20px auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    /* header */
+    header {
+        margin: 30px auto;
+    }
+
+    header h2 {
+        margin: 5px auto;
+        font-size: 1.2rem;
+    }
+
+    header h1 {
+        margin: 5px auto;
+        font-size: 2.1rem;
+    }
+
+    header figure {
+        height: 150px;
+    }
+
+    header p {
+        width: 300px;
+        margin: 5px auto;
+        font-size: 1rem;
+    }
+
+
+    /* advertisement */
+    .advertisement {
+        margin: 30px auto;
+    }
+
+    .advertisement.long {
+        display: none;
+    }
+
+
+    /* recommendation */
+    .recommendation {
+        margin: 30px auto;
+    }
+
+    .recommendation h1 {
+        font-size: 2rem;
+    }
+
+    .recommendation .presents {
+        margin: 10px 0;
+    }
+
+    .recommendation .presents ul li {
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .recommendation .presents ul li figure {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .recommendation .presents ul li section {
+        margin: 10px auto;
+    }
+
+    .recommendation .presents ul li a {
+        font-size: 0.6rem;
+    }
+
+
+    /* share */
+    .share {
+        width: 120px;
+        margin: 30px auto;
+    }
+
+    .share ul li {
+        width: 25px;
+        height: 25px;
+    }
+
+    .share section .button {
+        width: 70px;
+        height: 30px;
+        font-size: 0.6rem;
+    }
+
+    .share section a {
+        font-size: 0.5rem;
+    }
+
+
+    /* retry */
+    .retry {
+        margin: 30px auto;
+    }
+
+    .retry a {
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+
+
+    /* footer */
+    footer p {
+        margin: 10px auto;
+        font-size: 0.2rem;
+    }
+}

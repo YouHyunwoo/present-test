@@ -1,0 +1,76 @@
+/* page */
+#name {
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+/* prompt */
+#name .prompt {
+    margin: 50px auto;
+}
+
+#name .prompt h1 {
+    font-size: 3rem;
+}
+
+
+/* input */
+#name .input {
+    margin: 50px auto;
+}
+
+#name .input input[type=text] {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 0 6px;
+    padding-top: 2px;
+    border: 6px solid black;
+    border-radius: 6px;
+    font-family: 'BMYEONSUNG', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+#name .input input[type=text]::selection {
+    background-color: #f4762c;
+    color: white;
+}
+
+
+/* button */
+#name .button .button {
+    width: 140px;
+    height: 60px;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+    /* prompt */
+    #name .prompt h1 {
+        font-size: 1.8rem;
+    }
+    
+
+    /* input */
+    #name .input {
+        margin: 25px auto;
+    }
+
+    #name .input input[type=text] {
+        width: 100px;
+        border: 3px solid black;
+        border-radius: 3px;
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+
+    /* button */
+    #name .button a {
+        padding: 8px 25px;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+}

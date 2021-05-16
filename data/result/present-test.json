@@ -1,0 +1,72 @@
+[
+    {
+        "type": "케이스 중독자",
+        "image": "images/result/type/케이스중독자.png",
+        "description": "<p>퍼즐 페인팅은 캔버스에 써진 숫자를 따라 물감을 칠해 그림을 완성하는 취미에요. 언뜻 보면 쉬워보이지만 아주 작게 나뉜 영역들을 겹치지 않게 칠하고 말린다는 건 보통의 인내심과 끈기로는 해낼 수 없는 일이죠.</p><p>그러나 당신의 뛰어난 섬세함은 당신만의 분위기를 가진 그림을 완성할 수 있을 것이라는 기대를 가지게 하네요. 당신이라면 퍼즐 페인팅을 훌륭히 해내고 그림이 완성되었을 때의 뿌듯함과 성취감을 느낄 수 있을 것이라고 믿어요!</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    },
+    {
+        "type": "개코",
+        "image": "images/result/type/개코.png",
+        "description": "<p>요즘 많은 사람들이 집에서도 건강을 챙기는 홈트레이닝을 하고 있어요. 누군가의 도움 없이 계획을 세우고 실천해야하기 때문에 규칙적으로 지키는 건 쉽지 않아요.</p><p>자기 관리에 대한 관심과 이를 뒷받침하는 끈기를 가진 당신! 나 자신을 위해 하는 운동의 즐거움을 안다면 분명 성실한 홈트레이너가 될 수 있을거에요!</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    },
+    {
+        "type": "돼지 보스",
+        "image": "images/result/type/돼지보스.png",
+        "description": "<p>캠핑은 야외에서 즐기는 취미? 이제는 옛말이에요. 지금 이 시간에도 부지런한 캠퍼들은 홈 캠핑을 즐기기 위해 캠핑 관련 사이트를 보고 있어요. 그들은 여유로운 통장과 뛰어난 계획력으로 자신만의 캠핑 홈을 만들어가요.</p><p>휴식의 공간인 집이 취미의 공간으로도 거듭난다면, 사실 홈 캠핑은 경제적인 취미가 아닐까요? 꾸미기라면 어디가서 빠지지 않는 당신, 이제는 홈 캠퍼가 되어 집을 당신만의 캠핑 하우스로 꾸밀 시간이에요!</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    },
+    {
+        "type": "헬덕",
+        "image": "images/result/type/헬덕.png",
+        "description": "<p>살면서 악기 하나쯤 제대로 다뤄보고 싶다는 생각을 한 적이 있으신가요? 누구나 멋지게 악기 연주를 하는 꿈을 꿔본 경험이 있을거에요.</p><p>하지만 그 생각을 실천으로 옮기는 사람은 많지 않죠. 가장 열정있고 여유있는 상황만을 기다린다면, 평생 배울 수 없다는 걸 당신도 알고 있어요. 사실 당신은 이미 배울 준비가 되어있는 사람이에요. 그리고 이를 뒷받침할 끈기도 가지고 있죠. 악기를 배우고, 연습하고, 친구들과 연주하세요! 평생 즐길 수 있는 취미가 있다는 건 행복한 일이에요.</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    },
+    {
+        "type": "DIY 장인",
+        "image": "images/result/type/DIY장인.png",
+        "description": "<p>학창시절에 누군가에게 맛있는 음식을 만들어준 경험이 있나요? 아니라면 그 마음을 담아서 기념일을 챙긴 경험은 있을거에요. 적절한 재료를 찾고, 레시피를 참고해 요리를 만드는 것은 대단한 일이 아닌 것 같지만 요리하기는 가장 오래된 취미중에 하나에요. 누구나 시도할 수 있지만 누구나 성공하지는 않죠.</p><p>당신은 자신만의 요리를 해낼 만한 섬세함과 집중력을 가지고 있어요. 어떤 요리를 할 지 고민하고, 재료부터 완성까지 모든 과정에서 재미를 찾을 수 있을거에요!</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    },
+    {
+        "type": "21세기 간디",
+        "image": "images/result/type/21세기간디.png",
+        "description": "<p>요즘은 1인 방송의 시대라고 하죠. 인터넷 방송은 기획부터 촬영, 편집과 송출까지 신경쓸 일이 매우 많은 취미에요. 그러나 뛰어난 섬세함을 가진 당신이라면 이 모든 과정을 거쳐 많은 사람들에게 사랑받는 채널을 만들 수 있을 것이라는 생각이 드네요.</p><p>재미있는 컨텐츠를 기획하고 실행에 옮길 줄 아는 당신, 인터넷 방송하기의 주인공이 되어 모두에게 자신을 알려보세요!</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    },
+    {
+        "type": "다음주엔 진짜 퇴사함",
+        "image": "images/result/type/다음주엔진짜퇴사함.png",
+        "description": "<p>프라모델 조립은 이미 많은 사람들이 즐기는 취미에요. 쉬운 것부터 어려운 것까지 그 종류가 매우 많고 다양하죠.</p><p>완성하기 어려운 프라모델은 부품 수부터 디테일까지, 하나의 작품이라고 봐도 무방한데요, 지치지 않는 인내와 끈기를 가진 당신에게도 수많은 고비가 찾아올 거에요. 하지만 마침내 완성했을 때의 크나큰 뿌듯함과 성취감을 느끼게 된다면, 어느새 다음엔 무엇을 조립할 지 고민하고 있는 자신을 발견할 수 있을겁니다!</p>",
+        "recommendations": [
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" },
+            { "image": "images/recommendation/present-icon.png", "link": "#" }
+        ]
+    }
+]

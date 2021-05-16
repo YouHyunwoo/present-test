@@ -7,123 +7,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="co-authored by Hyunwoo You, Sungmin Woo, Chayoung-Yoon">
-    <meta name="description" content="선물 추천 테스트입니다." />
+    <meta name="description" content="소중한 사람에게 보낼 선물을 추천해드립니다!" />
 
     <meta property="og:url" content="https://presenttest.netlify.app" />
     <meta property="og:title" content="선물 추천 테스트" />
-    <meta property="og:description" content="선물 추천 테스트입니다." />
+    <meta property="og:description" content="소중한 사람에게 보낼 선물을 추천해드립니다!" />
     <meta property="og:image" content="https://presenttest.netlify.app/images/thumbnail.png">
 
     <title>선물 추천 테스트</title>
 
-    <!-- <link rel="shortcut icon" href="favicon.ico"> 
-    <link rel="icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" href="images/favicon/favicon.ico"> 
+    <link rel="icon" href="images/favicon/favicon.ico">
 
-    <!-- <link rel="canonical" href="https://presenttest.netlify.app/index.html">
+    <link rel="canonical" href="https://presenttest.netlify.app/index.html">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"> -->
-
+    <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/name.css">
-    <link rel="stylesheet" href="styles/question.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/page.css">
+    <link rel="stylesheet" href="styles/pages/main.css">
+    <link rel="stylesheet" href="styles/pages/name.css">
+    <link rel="stylesheet" href="styles/pages/test.css">
+    <link rel="stylesheet" href="styles/pages/loading.css">
 
-    <script type="module" src="scripts/page/base.js"></script>
-    <script type="module" src="scripts/page/main.js"></script>
-    <script type="module" src="scripts/page/name.js"></script>
-    <script type="module" src="scripts/page/question.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    
+    <script type="module" src="scripts/presentTest/pages/loading.js"></script>
+    <script type="module" src="scripts/presentTest/pages/main.js"></script>
+    <script type="module" src="scripts/presentTest/pages/name.js"></script>
+    <script type="module" src="scripts/presentTest/pages/test.js"></script>
 </head>
 
 <body>
-    <main>
-        <section id="pages">
-            <section id="main">
-                <header>
-                    <section class="logo">
-                        <img src="images/present-icon.png" alt="선물 아이콘">
-                    </section>
-                    <section class="title">
-                        <h1>선물 추천 테스트</h1>
-                    </section>
-                </header>
-                <main>
-                    <section class="subtitle">
-                        <h2>
-                            선물 받을 소중한 사람의 하루를 따라가며 선물을 골라보자!
-                        </h2>
-                    </section>
-                    <section class="image">
-                        <img src="images/main.png" alt="메인 이미지">
-                    </section>
-                    
-                    <section class="button">
-                        <a class="button" href="#">
-                            시작하기!
-                        </a>
-                    </section>
-                    
-                    <section class="share">
-
-                    </section>
-                </main>
-                <footer>
-                    <p class="copyright">Copyright(c) 2021 OutOfOutline</p>
-                </footer>
-            </section>
-
-            <section id="name">
-                <section class="prompt">
-                    <h1>
-                        선물 받을 소중한 사람의<br/>이름은 무엇인가요?
-                    </h1>
+    <section id="pages">
+        <section id="main" class="page-hide">
+            <header>
+                <section class="logo">
+                    <img src="images/present-icon.png" alt="선물 아이콘">
                 </section>
-                <section class="input">
-                    <input type="text">
+                <section class="title">
+                    <h1>선물 추천 테스트</h1>
                 </section>
+            </header>
+            <main>
+                <section class="subtitle">
+                    <h2>
+                        선물 받을 소중한 사람의 하루를 따라가며 선물을 골라보자!
+                    </h2>
+                </section>
+                <section class="image">
+                    <img src="images/main.png" alt="메인 이미지">
+                </section>
+                
                 <section class="button">
-                    <a class="button" href="javascript: void(0);">
-                        확인
-                    </a>
+                    <div class="button">
+                        <a>시작하기!</a>
+                    </div>
                 </section>
+            </main>
+            <section class="share">
+                <ul>
+                    <li class="facebook"></li>
+                    <li class="twitter"></li>
+                    <li class="kakaostory"></li>
+                    <li class="kakaotalk"></li>
+                </ul>
             </section>
+            <footer>
+                <p class="copyright">Copyright(c) 2021 OutOfOutline</p>
+            </footer>
+        </section>
 
-            <section id="question">
-                <header>
-                    <section class="progress">
-                        <section class="bar">
-                            <span>1</span> / 7
-                        </section>
-                        <section class="image">
-                            <img src="images/present-icon.png" alt="진행도 이미지">
-                        </section>
-                    </section>
-                </header>
-                <section class="question">
-                    <h1 class="text">
-                        질문
-                    </h1>
-                    <section class="image">
-                        <img src="/images/질문 이미지.png" alt="질문 이미지">
-                    </section>
-                </section>
-                <section class="choices">
-                </section>
-                <footer>
-                </footer>
+        <section id="name" class="page-hide">
+            <section class="prompt">
+                <h1>
+                    선물 받을 소중한 사람의<br/>이름은 무엇인가요?
+                </h1>
+            </section>
+            <section class="input">
+                <input type="text">
+            </section>
+            <section class="button">
+                <div class="button">
+                    <a>확인</a>
+                </div>
             </section>
         </section>
-    </main>
+
+        <section id="test" class="page-hide">
+            <header>
+                <section class="progress">
+                    <section class="bar">
+                        <span>1</span> / 7
+                    </section>
+                    <section class="image">
+                        <img src="images/present-icon.png" alt="진행도 이미지">
+                    </section>
+                </section>
+            </header>
+            <section class="question">
+                <h1 class="text">
+                    질문
+                </h1>
+                <section class="image">
+                    <img alt="질문 이미지">
+                </section>
+            </section>
+            <section class="choices">
+            </section>
+            <footer>
+            </footer>
+        </section>
+
+        <section id="loading" class="page-hide">
+            <main>
+                <h1>
+                    메세지
+                </h1>
+                <div></div>
+            </main>
+        </section>
+    </section>
 </body>
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<!-- <script src="/__/firebase/8.3.3/firebase-app.js"></script> -->
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<!-- <script src="/__/firebase/8.3.3/firebase-analytics.js"></script> -->
-
-<!-- Initialize Firebase -->
-<!-- <script src="/__/firebase/init.js"></script> -->
 
 </html>
