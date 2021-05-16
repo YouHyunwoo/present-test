@@ -1,0 +1,23 @@
+div.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: center no-repeat url("../images/button.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+div.button:hover {
+    background: center no-repeat url("../images/button-active.png");
+    background-size: 100% 100%;
+}
+
+div.button > a {
+    padding: 10%;
+    color: black;
+    text-decoration: none;
+}
+
+div.button:hover > a {
+    color: white;
+}

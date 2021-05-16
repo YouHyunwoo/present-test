@@ -1,0 +1,131 @@
+/* page */
+#main {
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+/* header */
+#main header {
+    margin: 20px auto;
+}
+
+#main header .logo {
+    margin: 10px auto;
+    height: 100px;
+}
+
+#main header .logo img {
+    height: 100%;
+}
+
+#main header .title {
+    margin: 10px auto;
+}
+
+#main header .title h1 {
+    margin: 10px auto;
+    font-size: 3rem;
+}
+
+
+/* main */
+#main main {
+    margin: 20px auto;
+}
+
+#main main .subtitle h2 {
+    margin: 10px auto;
+    font-size: 1.1rem;
+}
+
+#main main .image {
+    margin: 40px auto;
+    height: 300px;
+}
+
+#main main .image img {
+    padding-right: 20px;
+    height: 100%;
+}
+
+#main main .button .button {
+    width: 140px;
+    height: 60px;
+    font-size: 1.2rem;
+}
+
+
+/* share */
+.share {
+    width: 240px;
+    margin: 40px auto;
+}
+
+.share ul li {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+/* footer */
+#main footer {
+    margin: 40px auto;
+    font-size: 1rem;
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    /* header */
+    #main header {
+        margin: 10px auto;
+    }
+
+    #main header .logo {
+        height: 60px;
+    }
+
+    #main header .title h1 {
+        font-size: 2.3rem;
+    }
+
+
+    /* main */
+    #main main {
+        margin: 10px auto;
+    }
+
+    #main main .subtitle h2 {
+        font-size: 0.8rem;
+    }
+
+    #main main .image {
+        margin: 20px auto;
+        height: 200px;
+    }
+
+    #main main .button a {
+        font-size: 0.8rem;
+    }
+
+
+    /* share */
+    .share {
+        width: 120px;
+        margin: 20px auto;
+    }
+
+    .share ul li {
+        width: 25px;
+        height: 25px;
+        border-radius: 12.5px;
+    }
+
+    
+    /* footer */
+    #main footer {
+        margin: 20px auto;
+        font-size: 0.6rem;
+    }
+}

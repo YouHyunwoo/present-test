@@ -1,0 +1,42 @@
+.share ul {
+    margin: 10px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.share ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.share li.facebook {
+    background: url(/images/sns/facebook.png) center/cover no-repeat;
+}
+
+.share li.twitter {
+    background: url(/images/sns/twitter.png) center/cover no-repeat;
+}
+
+.share li.kakaostory {
+    background: url(/images/sns/kakaostory.png) center/cover no-repeat;
+}
+
+.share li.kakaotalk {
+    background: url(/images/sns/kakaotalk.png) center/cover no-repeat;
+}
+
+.share section {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.share section .button {
+    margin: 10px;
+}
+
+.share section a {
+    margin: 10px auto;
+}
