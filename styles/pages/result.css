@@ -1,6 +1,9 @@
+#result {
+    padding: 60px 0;
+}
+
 /* header */
 header {
-    margin: 60px auto;
     text-align: center;
 }
 

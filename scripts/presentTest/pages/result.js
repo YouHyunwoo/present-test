@@ -147,7 +147,7 @@ export class ResultPage extends page.Page {
     }
 
     onResultCopyButtonClick() {
-        clipboard.copyHTMLContent(document.body);
+        clipboard.copyHTMLContent(this.element);
     
         alert('결과 복사 완료!');
     }
