@@ -98,7 +98,7 @@ export class ResultPage extends page.Page {
         this.showPersonName(personName);
         this.showResultTypeText(result.type);
         this.showResultTypeImage(result.image);
-        this.showResultTypeDescription(result.description);
+        this.showResultTypeDescription(result.description.replace(/\${name}/g, personName));
         this.showRecommendations(result.recommendations);
     }
 
@@ -132,7 +132,7 @@ export class ResultPage extends page.Page {
             const link = recommendationItem.querySelector('a');
     
             image.src = recommendation.image;
-            link.href = recommendation.link;
+            link.href = `https://www.coupang.com/np/search?component=&q=${recommendation.query}&channel=user`;
         });
     }
 
