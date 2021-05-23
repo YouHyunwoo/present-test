@@ -2,7 +2,7 @@
     {
         "type": "케이스 중독자",
         "image": "images/result/type/케이스중독자.png",
-        "description": "<p>${name}님은 일상생활에서 취향을 표현하는 섬세한 분인 것 같아요!<br>${name}님만의 취향이 녹아 있는 케이스를 선물하는 것은 어떨까요? :white_heart:</p>",
+        "description": "<p>${name}님은 일상생활에서 취향을 표현하는 섬세한 분인 것 같아요!<br>${name}님만의 취향이 녹아 있는 케이스를 선물하는 것은 어떨까요? 🤍</p>",
         "recommendations": [
             { "image": "images/recommendation/케이스중독자_이어폰케이스.png", "query": "이어폰 케이스" },
             { "image": "images/recommendation/케이스중독자_키링.png", "query": "키링" },
@@ -12,7 +12,7 @@
     {
         "type": "개코",
         "image": "images/result/type/개코.png",
-        "description": "<p>${name}님은 후각이 예민해 개코라는 별명을 가져보신 분이 아닐까 해요!<br>그만큼 향기를 좋아하는 분인 것 같아요! :bouquet:<br>향기로운 선물을 준비해 ${name}님을 기쁘게 해드리는 건 어떨까요? :heavy_check_mark:<br>호불호가 강한 향은 피하거나, 미리 ${name}님이 좋아하는 향 종류를 파악해보는 센스도 발휘해보세요!</p>",
+        "description": "<p>${name}님은 후각이 예민해 개코라는 별명을 가져보신 분이 아닐까 해요!<br>그만큼 향기를 좋아하는 분인 것 같아요! 💐<br>향기로운 선물을 준비해 ${name}님을 기쁘게 해드리는 건 어떨까요? ✔<br>호불호가 강한 향은 피하거나, 미리 ${name}님이 좋아하는 향 종류를 파악해보는 센스도 발휘해보세요!</p>",
         "recommendations": [
             { "image": "images/recommendation/개코_디퓨저.png", "query": "디퓨저" },
             { "image": "images/recommendation/개코_석고방향제.png", "query": "석고방향제" },
@@ -22,7 +22,7 @@
     {
         "type": "돼지 보스",
         "image": "images/result/type/돼지보스.png",
-        "description": "<p>${name}님이 “먹기 위해 산다”라고 말씀하시는 걸 들어본 적은 없나요?<br>그렇다면 맛있는 선물을 주는 게 인지상정!<br>${name}님에게 후기를 요청하는 것도 잊지 마세요! :pig_nose:</p>",
+        "description": "<p>${name}님이 “먹기 위해 산다”라고 말씀하시는 걸 들어본 적은 없나요?<br>그렇다면 맛있는 선물을 주는 게 인지상정!<br>${name}님에게 후기를 요청하는 것도 잊지 마세요! 🐽</p>",
         "recommendations": [
             { "image": "images/recommendation/돼지보스_과자세트.png", "query": "과자세트" },
             { "image": "images/recommendation/돼지보스_로제떡볶이밀키트.png", "query": "로제떡볶이 밀키트" },
@@ -32,7 +32,7 @@
     {
         "type": "헬덕",
         "image": "images/result/type/헬덕.png",
-        "description": "<p>${name}님의 삶에서 운동을 빼라는 건 상상할 수 없는 일이에요.<br>하지만 한국인이라면 가지고 있는 장비병.. 장비가 좋으면 운동이 더 잘 되는 기분이에요!<br>선물 전 가지고 있는 물건은 아닌지 꼭 체크해보세요!</p>",
+        "description": "<p>${name}님의 삶에서 운동을 빼라는 건 상상할 수 없는 일이에요.<br>하지만 한국인이라면 가지고 있는 장비병.. 장비가 좋으면 운동이 더 잘 되는 기분이에요!<br>선물 전 가지고 있는 물건은 아닌지 꼭 체크해보세요! 🎽</p>",
         "recommendations": [
             { "image": "images/recommendation/헬덕_반바지.png", "query": "반바지" },
             { "image": "images/recommendation/헬덕_스마트밴드.png", "query": "스마트 밴드" },
@@ -42,7 +42,7 @@
     {
         "type": "DIY 장인",
         "image": "images/result/type/DIY장인.png",
-        "description": "<p>${name}님을 평소 “금손”이라고 생각해본 적은 없나요?<br>${name}님은 직접 diy 제품을 만들면서 성취감을 느끼는 분일 것 같아요!<br>${name}님에게 잊지 못할 추억을 만들어주세요! :wrench::screwdriver::gem:</p>",
+        "description": "<p>${name}님을 평소 “금손”이라고 생각해본 적은 없나요?<br>${name}님은 직접 diy 제품을 만들면서 성취감을 느끼는 분일 것 같아요!<br>${name}님에게 잊지 못할 추억을 만들어주세요! 🛠💎</p>",
         "recommendations": [
             { "image": "images/recommendation/DIY장인_다이어리.png", "query": "다이어리" },
             { "image": "images/recommendation/DIY장인_마스크스트랩만들기.png", "query": "마스크 스트랩 만들기" },
@@ -52,7 +52,7 @@
     {
         "type": "21세기 간디",
         "image": "images/result/type/21세기간디.png",
-        "description": "<p>${name}님은 건강한 삶을 살아가고 싶어 하는 분인 것 같아요!<br>${name}님의 몸과 마음을 힐링 시켜 드릴 선물을 추천해드릴게요!:dove:</p>",
+        "description": "<p>${name}님은 건강한 삶을 살아가고 싶어 하는 분인 것 같아요!<br>${name}님의 몸과 마음을 힐링 시켜 드릴 선물을 추천해드릴게요! 🕊</p>",
         "recommendations": [
             { "image": "images/recommendation/간디_비건쿠키.png", "query": "비건 쿠키" },
             { "image": "images/recommendation/간디_비타민.png", "query": "비타민" },
@@ -62,7 +62,7 @@
     {
         "type": "다음주엔 진짜 퇴사함",
         "image": "images/result/type/다음주엔진짜퇴사함.png",
-        "description": "<p>출근과 동시에 집에 가고 싶다를 외치는 ${name}님, 스트레스를 충분히 풀 수 있는 선물을 드리는 건 어떨까요?<br>${name}님께 파이팅을 외쳐 주세요! :muscle_tone1:</p>",
+        "description": "<p>출근과 동시에 집에 가고 싶다를 외치는 ${name}님, 스트레스를 충분히 풀 수 있는 선물을 드리는 건 어떨까요?<br>${name}님께 파이팅을 외쳐 주세요! 💪</p>",
         "recommendations": [
             { "image": "images/recommendation/퇴사함_대왕엔터키.png", "query": "대왕 엔터키" },
             { "image": "images/recommendation/퇴사함_소리지르는항아리.png", "query": "소리지르는 항아리" },
