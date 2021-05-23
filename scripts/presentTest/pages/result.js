@@ -146,10 +146,13 @@ export class ResultPage extends page.Page {
         alert('링크 복사 완료!');
     }
 
-    onResultCopyButtonClick() {
-        clipboard.copyHTMLContent(this.element);
-    
-        alert('결과 복사 완료!');
+    onResultCopyButtonClick(e) {
+        clipboard.copyHTMLContent(this.element, (url) => {
+            const temp = document.createElement('a');
+            temp.href = url;
+            temp.download = 'result.png';
+            temp.click();
+        });
     }
 }
 

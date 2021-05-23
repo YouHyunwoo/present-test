@@ -7,12 +7,15 @@ function copyText(text) {
     document.body.removeChild(ta);
 }
 
-function copyHTMLContent(content) {
+function copyHTMLContent(content, f) {
     html2canvas(content, { scrollY: -window.scrollY }).then(canvas => {
-        canvas.toBlob(function(blob) {
+        canvas.toBlob((blob) => {
             const item = new ClipboardItem({ "image/png": blob });
-
+            
             navigator.clipboard.write([item]);
+
+            
+            f(URL.createObjectURL(blob));
         });
     });
 }
