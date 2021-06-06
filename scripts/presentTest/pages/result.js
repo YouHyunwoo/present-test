@@ -127,9 +127,9 @@ export class ResultPage extends page.Page {
             const image = recommendationItem.querySelector('img');
             const link = recommendationItem.querySelector('a');
     
-            name.innerText = recommendation.query;
+            name.innerText = recommendation.name;
             image.src = recommendation.image;
-            link.href = `https://www.coupang.com/np/search?component=&q=${recommendation.query}&channel=user`;
+            link.href = recommendation.link;
             
             recommendationItem.addEventListener('click', () => { link.click(); });
         });
