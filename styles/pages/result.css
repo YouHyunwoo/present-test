@@ -69,12 +69,21 @@ header p {
     flex-direction: column;
     background-color: #f4762c;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.recommendation .presents ul li h2 {
+    margin: 10px auto;
+    color: white;
+    font-size: 2rem;
+    font-weight: unset;
+    line-height: 2rem;
 }
 
 .recommendation .presents ul li figure {
     width: 180px;
-    height: 200px;
-    margin: 20px;
+    height: 180px;
+    margin: 0 20px;
 }
 
 .recommendation .presents ul li figure img {
@@ -198,10 +207,16 @@ footer p {
         border-radius: 5px;
     }
 
+    .recommendation .presents ul li h2 {
+        margin: 10px auto;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+
     .recommendation .presents ul li figure {
         width: 160px;
         height: 160px;
-        margin: 10px;
+        margin: 0 10px;
     }
 
     .recommendation .presents ul li section {

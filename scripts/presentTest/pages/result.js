@@ -41,11 +41,6 @@ export class ResultPage extends page.Page {
         const linkCopyButton = this.element.querySelector('.share div.button#link-copy');
 
         linkCopyButton.addEventListener('click', onLinkCopyButtonClick);
-
-        const onResultCopyButtonClick = this.onResultCopyButtonClick.bind(this);
-        const resultCopyButton = this.element.querySelector('.share div.button#result-copy');
-
-        resultCopyButton.addEventListener('click', onResultCopyButtonClick);
     }
 
     loadResults() {
@@ -128,11 +123,15 @@ export class ResultPage extends page.Page {
         recommendations.forEach((recommendation, index) => {
             const recommendationItem = this.recommendationItems[index];
     
+            const name = recommendationItem.querySelector('h2');
             const image = recommendationItem.querySelector('img');
             const link = recommendationItem.querySelector('a');
     
+            name.innerText = recommendation.name;
             image.src = recommendation.image;
-            link.href = `https://www.coupang.com/np/search?component=&q=${recommendation.query}&channel=user`;
+            link.href = recommendation.link;
+            
+            recommendationItem.addEventListener('click', () => { link.click(); });
         });
     }
 
