@@ -38,7 +38,7 @@ export class TestSheet {
         const cumulativeScore = this.tests.reduce((acc, test) => {
             const choiceScore = test.getSelectedChoiceScore();
             
-            return acc.map((s, i) => { s + choiceScore[i] });
+            return acc.map((s, i) => s + choiceScore[i]);
         }, zeroScore);
 
         const sortedScore = cumulativeScore
